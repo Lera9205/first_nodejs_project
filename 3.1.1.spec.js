@@ -15,3 +15,6 @@ describe("calculateBonus function", () => {
     expect(calculateBonus(35, 20)).toBe(35);
   });
 });
+
+//Для проверки покрытия тестами кода устанавливаю плагин. Он отобразился в package.json в devDependencies.
+// Выполняю команду jest --coverage
