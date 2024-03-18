@@ -11,3 +11,6 @@ const calculateBonus = (a, b) => {
 console.log(calculateBonus(20, 10));
 
 module.exports = calculateBonus; // функция будет доступна вне этого файла.
+
+//Для проверки покрытия тестами кода устанавливаю плагин. Он отобразился в package.json в devDependencies.
+// Выполняю команду jest --coverage
